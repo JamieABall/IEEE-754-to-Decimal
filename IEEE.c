@@ -37,7 +37,6 @@ void dec_to_IEEE(){
 		 sc = '1';
 	}
 	strcat(sign_str, &sc);
-//	sprintf(IEEE_str, "%d", sign);
 	printf("*** Sign: %d ***", sign);
 	
 	dec_base_ten = (float)fabs((double)dec_base_ten);
